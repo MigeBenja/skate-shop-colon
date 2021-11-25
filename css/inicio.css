@@ -1,0 +1,742 @@
+
+
+body {
+	background: #1D1227;
+	width: 100%;
+}
+
+.nav-celu {
+	display: none;
+}
+
+
+
+
+
+
+
+.list-home_ul {
+
+	position: fixed;
+	font-size: 20px;
+	margin: -4em 0em;
+	box-sizing: border-box;
+	z-index: 20
+
+}
+
+
+.list-home__li {
+	
+	color: #989898;
+	font-size: 1em;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1;
+	font-weight: 900;
+	background-color: #2E2D2D;
+	display: inline;
+	padding: .5em 1em;
+	margin: .5em 0.7em;
+	box-sizing: border-box;
+    text-align: center;
+	border-radius: 5px;
+	border: 2px solid #5F5F5F;
+	box-shadow: 2px 4px 15px 0 #000;
+	transition: background .20s, border .20s;
+
+
+}
+
+
+.list-home__li a {
+
+	color: rgb(190,190,190);
+	text-decoration: none;
+}
+
+
+.list-home__li i {
+	width: 35px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-left: -10px;
+}
+
+
+
+
+
+
+
+.list-home__li:hover {
+	background-color: #1B1B1B;
+	border-color: #fff;
+	color: #fff;
+}
+
+.list-home__li:hover a {
+
+	border-color: #fff;
+	color: #fff;
+}
+
+.list-home__li:hover i {
+
+	border-color: #fff;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.nav-celu-boton-contenedor {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background-color: darkgrey;
+	margin-top: -64px;
+	z-index: 100
+}
+
+.nav-celu-boton {
+	padding: 6px 20px;
+	text-align:	right;
+	width: 100%;
+
+}
+
+
+
+
+
+.titulo-principal {
+
+	font-size: 15px;
+	width: 100%;
+	margin: 0;
+
+}
+
+
+.titulo-principal__h1 {
+
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 2;
+	font-weight: 900;
+	background-color: #AEAEAE;
+	margin: 100px 0px 20px;
+	padding: 15px 50px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	transform: rotate(0deg);
+	
+}
+
+
+
+
+
+
+.title-local {
+
+	width: 100%;
+	margin: 0;
+}
+
+.title-local__h2 {
+
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1;
+	font-weight: 900;
+	color: #fff;
+	padding: 15px;
+	background-color: #1F1E1E;
+	box-sizing: content-box;
+	text-align: center;
+
+}
+
+
+
+
+
+.foto-local {
+
+ 
+	background-color: #2E2D2D;
+	width: 100%;
+	padding: 50px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+
+.foto-local__img {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 10px 20px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 0  #000;
+
+}
+
+
+
+
+.skater-titulos {
+
+	font-size: 13px;
+	width: 100%;
+
+}
+
+.skater-titulos__h3 {
+
+	font-size: 2em;
+	font-family: Ubuntu, sans-serif;
+	line-height: 2;
+	font-weight: 900;
+	background-color: #AEAEAE;
+	text-align: center;
+}
+
+
+
+
+
+.skater-photo {
+
+	background-color: #2E2D2D;
+	display: inline-block;
+	width: 100%;
+	padding: 30px 20px 50px;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+
+.skater-photo__img {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 10px 10px;
+	box-sizing: content-box;
+	text-align: center;
+	margin: 1px 1px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px 0  #000;
+	height: 450px;
+	width: 800px;
+}
+
+
+
+
+.skater-descrip {
+
+	font-size: 7px;
+	margin: 0;
+	
+}
+
+
+
+
+.skater-descrip__p {
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+	font-weight: 900;
+	background-color: #AEAEAE;
+	padding: 20px 50px;
+	text-align: center;
+}
+
+
+
+.nyjah-video {
+
+	background-color: #2E2D2D;
+	display: inline-block;
+	width: 100%;
+	padding: 1em .7em 1em;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+
+
+.nyjah-video__vid {
+
+	background-color: #262626;
+	width: 75%;
+	display: inline-block;
+	padding: .5em .5em;
+	box-sizing: border-box;-box;
+	text-align: center;
+	border-radius: .1;
+	box-shadow: 1px 1px 10px 0  #000;
+}
+
+
+.footer-div {
+
+	margin: 10px 10px;
+	color: #A1A1A1 ;
+	background: #2E2D2D ;
+	border-radius: 5em;
+	text-align: center;
+}
+
+.footer-div a {
+
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARTE DEL SHOP---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.title-shop	{
+	font-size: 15px;
+	width: 100%;
+}
+
+
+.title-shop__h1 {
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 2;
+	font-weight: 900;
+	background-color: #AEAEAE;
+	margin: 100px 0px 30px;
+	padding: 15px 50px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	transform: rotate(0deg);
+}
+
+
+
+.descrip-shop {
+	font-size: 15px;
+	font-weight: 900;
+	margin: 5px;
+	font-style: italic;
+
+}
+
+.descrip-shop__p {
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+	font-weight: 200;
+	padding: 20px 5px;
+	margin: 10px 10px;
+	color: #A1A1A1 ;
+	background: #2E2D2D ;
+	border-radius: 5em;
+	text-align: center;
+}
+
+
+
+
+
+.title-tablas {
+	margin: 30px;
+	font-size: 15px;
+	width: 20%;
+	display: inline-block;
+	background-color: #262626;
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+
+}
+
+
+.title-tablas__all {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	background-color: #262626;
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	box-sizing: content-box;
+	
+}
+
+
+.title-precios {
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	background-color: #2E2D2D;
+	padding: 0px 30px;
+
+}
+
+
+
+
+
+.tablas-photos-1, .tablas-photos-2, .tablas-photos-3{
+	
+	background-color: #2E2D2D;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 0  #000;
+	padding: 20px;
+	box-sizing: ;
+	height: 470px;
+	width: 400px;
+}
+
+
+/*PARTE DEL NOSOTROS---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.title-nosotros	{
+	font-size: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.title-nosotros__h1 {
+	color: rgb(35,35,35);
+	font-size: 2em;	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 2;
+	font-weight: 9000;
+	background-color: #AEAEAE;
+	margin: 100px 0px 50px;
+	padding: 15px 50px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	transform: rotate(0deg);
+	
+}
+
+
+
+
+.descrip-nosotros {
+
+	font-size: 7px;
+	margin: 0;
+	
+}
+
+
+
+
+.descrip-nosotros__p {
+
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+	font-weight: 900;
+	background-color: #AEAEAE;
+	border-radius: 5px;
+	padding: 20px 20px;
+	border: solid;
+	border-color: #2E2D2D;
+}
+
+
+
+
+.photo-nosotros {
+
+	background-color: #1F1E1E;
+	display: inline-block;
+	width: 100%;
+	padding: 25px 10px 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+.photo-nosotros-1 {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 10px 10px;
+	box-sizing: content-box;
+	text-align: center;
+	border: solid;
+	border-color: #262626;
+	border-radius: 5px;
+	border-width: 10px;
+	box-shadow: 1px 1px 10px 0  #000, 1px 1px 10px 0  #000;
+}
+
+
+/* RESPONSIVE VISION-------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 715px) {
+
+.list-home_ul {
+
+	display: none;
+
+
+}
+
+
+
+.nav {
+
+	height: 37px;
+	width: 100%;
+}
+
+.nav-celu {
+
+	display: block;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	margin-top: 37px;
+	padding-top: 27px;
+	height: 37px;
+
+}
+
+
+.nav-celu-boton {
+	padding: 8px 30px;
+	text-align:	right;
+	width: 100%;
+
+}
+
+
+
+.nav-li-contenedor {
+	position: relative;
+	top: -1000px;
+	height: calc(100vh - 450px);
+	background-color: grey;
+	transition: all 1s;
+	z-index: 5;
+	width: 75%;
+	padding-top: 27px;
+}
+
+
+
+.nav-celu__li {
+	width: 100%;
+	padding: 5px;
+}
+
+
+.nav-celu__li i {
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 5px;
+	width: 30px;
+	color: #050505;
+
+}
+
+.nav-celu a {
+	font-size: 1em;
+	line-height: 2;
+	color: #050505;
+	text-decoration: none;
+}
+
+
+
+
+.nav-celu:hover > .nav-li-contenedor {
+		top: -27px;
+}
+
+
+.title-tablas {
+	margin: 45px;
+	font-size: 15px;
+	width: 33%;
+	display: inline-block;
+	background-color: #262626;
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+
+}
+
+
+.tablas-photos-1, .tablas-photos-2, .tablas-photos-3{
+	margin: 8px;
+	background-color: #2E2D2D;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 0  #000;
+	padding: 10px 5px;
+	height: 7cm;
+	width: 5cm;
+}
+
+
+.title-tablas__all {
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	background-color: #262626;
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	box-sizing: content-box;
+	
+}
+
+
+.title-precios {
+	border-radius: 10px;
+	box-shadow: 10px 1px 10px 0  #000;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	background-color: #2E2D2D;
+	padding: 0px 30px;
+
+}
+
+
+.foto-local {
+
+ 
+	background-color: #2E2D2D;
+	width: 100%;
+	padding: 50px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+
+.foto-local__img {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 1px 1px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 0  #000;
+	height: 200px;
+	width: 350px;
+
+}
+
+.skater-photo__img {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 1px 1px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px 0  #000;
+	height: 180px;
+	width: 320px;
+}
+
+
+
+.title-tablas {
+	margin: 1px;
+	font-size: 15px;
+	width: 200px;
+	display: inline-block;
+	background-color: #262626;
+	border-radius: 10px;
+	
+}
+
+.tablas-photos-1, .tablas-photos-2, .tablas-photos-3{
+	margin: 0px;
+	background-color: #2E2D2D;
+	border-radius: 10px;
+	padding: 10px 5px;
+	height: 300px;
+	width: 200px;
+}
+
+
+.photo-nosotros {
+
+	background-color: #1F1E1E;
+	display: inline-block;
+	width: 320;
+	height: 180;
+	padding: 25px 10px 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+.photo-nosotros-1 {
+
+	background-color: #262626;
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 1px 1px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 0  #000;
+	height: 200px;
+	width: 350px;
+
+}

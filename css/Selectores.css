@@ -1,0 +1,47 @@
+Universal
+* {
+	color: #f30;
+}
+
+
+
+De Tipo--------------------Tipos de etiquetas.
+h1 {
+	color: #f50;
+}
+
+
+
+Clases----------------------- Selencionas todo aquel atributo que tenga class="FOTOS-MIAS" y lo cambia de color.
+.FOTOS-MIAS {
+	color: #f20;
+}
+
+
+
+ID
+#Seguinos {
+	color: #f00;
+}
+
+
+
+Por Atributo Creado------creando un atributo dentro de una etiqueta EJ -H1 rancio="nefasto"- ESTO SE CAMBIARIA DE COLOR -/H1-
+
+[rancio="nefasto"] {
+	color: #f30;
+}
+
+
+
+Decendientes --------Cuando usas una casilla adentro de otra , la que esta 1ro siempre va 1ro, todas siguen en su orden.
+h2 b {
+	color: #f300;
+}
+
+
+
+Pseudo-Clases --------Se convierte en color rojo , cuando pasas el cursor sobre el texto dentro de un B.
+b:hover {
+	color: red ;
+}
